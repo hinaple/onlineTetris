@@ -1,0 +1,15 @@
+body {
+    background-color: #c9c9c9;
+    text-align: center;
+}
+canvas {
+    border-radius: 0px;
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 5px rgba(50, 50, 93, 0.5);
+    margin-top: 50px;
+} @media ( max-width: 767px ) {
+    canvas {
+        width: 430px;
+        height:700px;
+    }
